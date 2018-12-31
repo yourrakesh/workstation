@@ -10,7 +10,7 @@ package 'ntp' do
 end
 
 file '/etc/motd' do
- content 'This server is the property of Rakesh. Added one more content. Added second content'
+ content 'This server (VM) is the property of Rakesh.'
  action :create
  owner 'root'
  group 'root'
